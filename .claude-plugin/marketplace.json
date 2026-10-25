@@ -9,9 +9,11 @@
     {
       "name": "arch-diagram",
       "source": "./plugins/arch-diagram",
-      "description": "Lucidchart/AWS-style architecture diagrams (accounts, VPC tiers, K8s namespaces, official logos, edge-attached arrows) rendered to SVG + PNG",
+      "description": "Lucidchart/AWS-style architecture diagrams (accounts, VPC tiers, K8s namespaces, official logos, edge-attached arrows, animated connectors) exported to SVG, PNG, GIF or editable draw.io XML",
       "category": "productivity",
-      "skills": ["./skills/arch-diagram"]
+      "skills": [
+        "./skills/arch-diagram"
+      ]
     }
   ]
 }

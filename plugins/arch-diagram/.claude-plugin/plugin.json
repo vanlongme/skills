@@ -1,7 +1,7 @@
 {
   "name": "arch-diagram",
-  "version": "1.0.0",
-  "description": "Lucidchart/AWS-style architecture diagrams (accounts, VPC tiers, K8s namespaces, official logos, edge-attached arrows) rendered to SVG + PNG",
+  "version": "1.1.0",
+  "description": "Lucidchart/AWS-style architecture diagrams (accounts, VPC tiers, K8s namespaces, official logos, edge-attached arrows) rendered to SVG, PNG, animated GIF or draw.io XML",
   "author": {
     "name": "Nguyen Van Long",
     "email": "vanlong.me@gmail.com",

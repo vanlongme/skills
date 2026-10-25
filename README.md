@@ -5,7 +5,7 @@ cross-agent [`skills`](https://skills.sh) CLI (Codex, Cursor, Gemini CLI, Copilo
 
 | Plugin | Skill | What it does |
 |---|---|---|
-| `arch-diagram` | [`arch-diagram`](plugins/arch-diagram/skills/arch-diagram/SKILL.md) | Lucidchart/AWS-style architecture diagrams (accounts, VPC tiers, K8s namespaces, official logos, edge-attached arrows) rendered to SVG + PNG from a short Python script |
+| `arch-diagram` | [`arch-diagram`](plugins/arch-diagram/skills/arch-diagram/SKILL.md) | Lucidchart/AWS-style architecture diagrams (accounts, VPC tiers, K8s namespaces, official logos, edge-attached arrows, animated connectors) from a short Python script → SVG · PNG · GIF · draw.io XML |
 
 ## Install
 
@@ -54,6 +54,11 @@ Add a plugin: create `plugins/<name>/` with the same structure, append an entry 
 `version` in its `plugin.json`, then run `claude plugin validate .`.
 
 ## arch-diagram previews
+
+Animated connectors (`flow="dash"` / `flow="dot"`), exported as GIF — the same script also writes an animated
+SVG and an editable [`.drawio`](plugins/arch-diagram/skills/arch-diagram/examples/aws_aft_animated.drawio):
+
+![Animated AFT](plugins/arch-diagram/skills/arch-diagram/assets/previews/aws_aft_animated.gif)
 
 | | |
 |---|---|
