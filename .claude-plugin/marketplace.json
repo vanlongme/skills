@@ -1,0 +1,17 @@
+{
+  "name": "vanlongme",
+  "description": "Reusable skills by Nguyen Van Long — architecture diagrams and more",
+  "owner": {
+    "name": "Nguyen Van Long",
+    "email": "vanlong.me@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "arch-diagram",
+      "source": "./plugins/arch-diagram",
+      "description": "Lucidchart/AWS-style architecture diagrams (accounts, VPC tiers, K8s namespaces, official logos, edge-attached arrows) rendered to SVG + PNG",
+      "category": "productivity",
+      "skills": ["./skills/arch-diagram"]
+    }
+  ]
+}

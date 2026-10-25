@@ -1,0 +1,13 @@
+{
+  "name": "arch-diagram",
+  "version": "1.0.0",
+  "description": "Lucidchart/AWS-style architecture diagrams (accounts, VPC tiers, K8s namespaces, official logos, edge-attached arrows) rendered to SVG + PNG",
+  "author": {
+    "name": "Nguyen Van Long",
+    "email": "vanlong.me@gmail.com",
+    "url": "https://github.com/vanlongme"
+  },
+  "homepage": "https://github.com/vanlongme/skills",
+  "repository": "https://github.com/vanlongme/skills",
+  "keywords": ["architecture", "diagram", "aws", "kubernetes", "svg"]
+}
