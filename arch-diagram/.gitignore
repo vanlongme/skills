@@ -1,0 +1,4 @@
+logos/
+__pycache__/
+*.svg
+!assets/**/*.svg
