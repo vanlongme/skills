@@ -1,0 +1,14 @@
+{
+  "name": "mindmap",
+  "version": "1.0.0",
+  "description": "XMind-style mind maps from a Markdown outline: two-sided map, right-only or top-down tree, branch colours, icons/logos, Vietnamese text. Exports SVG, PNG, editable draw.io XML, FreeMind .mm (Freeplane/XMind) and interactive markmap HTML.",
+  "author": {
+    "name": "Nguyen Van Long",
+    "email": "vanlong.me@gmail.com",
+    "url": "https://github.com/vanlongme"
+  },
+  "homepage": "https://github.com/vanlongme/skills",
+  "repository": "https://github.com/vanlongme/skills",
+  "license": "MIT",
+  "keywords": ["mindmap", "mind-map", "markmap", "drawio", "freemind", "xmind", "markdown", "diagram"]
+}

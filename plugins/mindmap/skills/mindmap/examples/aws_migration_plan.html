@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kế hoạch di chuyển lên AWS</title>
+<style>html,body{margin:0;height:100%;background:#FFFFFF;font-family:Inter, DejaVu Sans, sans-serif}
+.markmap{position:relative;height:100vh;--markmap-text-color:#1F2937}.markmap>svg{width:100%;height:100%;--markmap-text-color:#1F2937}
+.markmap-foreign,.markmap-foreign *{color:#1F2937 !important}</style>
+<script>window.markmap={autoLoader:{toolbar:true}};</script></head><body>
+<div class="markmap"><script type="text/template">
+---
+markmap:
+  colorFreezeLevel: 2
+  initialExpandLevel: -1
+  maxWidth: 300
+  color: ["#232F3E","#E07B00","#147EBA","#7AA116","#D13212"]
+---
+# Kế hoạch di chuyển lên AWS
+
+## Đánh giá hiện trạng
+- Kiểm kê ứng dụng
+  - VMware vSphere
+  - Proxmox · RKE2
+- Phân loại 7R
+  - Rehost
+  - Replatform
+  - Refactor
+- Ước tính chi phí TCO
+
+## Nền tảng (landing zone)
+- Control Tower + AFT
+- Network account
+  - Direct Connect × 2
+  - Transit Gateway
+- Security · Log archive
+
+## Di chuyển theo đợt
+- Đợt 1: ứng dụng nội bộ
+- Đợt 2: hệ thống khách hàng
+- Đợt 3: dữ liệu lớn
+  - Oracle → RDS
+  - SQL Server → RDS
+
+## Vận hành
+- FinOps · tagging
+- Giám sát tập trung
+- Đào tạo đội ngũ
+- Giữ lại on-prem <!-- markmap: fold -->
+  - HSM
+  - Core banking
+
+</script></div>
+<script src="https://cdn.jsdelivr.net/npm/markmap-autoloader@0.18.12"></script></body></html>

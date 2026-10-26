@@ -14,6 +14,15 @@
       "skills": [
         "./skills/arch-diagram"
       ]
+    },
+    {
+      "name": "mindmap",
+      "source": "./plugins/mindmap",
+      "description": "XMind-style mind maps from a Markdown outline (two-sided, right or tree layout, icons/logos, Vietnamese text) exported to SVG, PNG, editable draw.io XML, FreeMind .mm or interactive markmap HTML",
+      "category": "productivity",
+      "skills": [
+        "./skills/mindmap"
+      ]
     }
   ]
 }
