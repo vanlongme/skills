@@ -1,6 +1,6 @@
 ---
 name: mindmap
-description: Draw XMind/MindNode-style mind maps from a Markdown outline: balanced two-sided map, right-only or top-down tree, coloured branches, tapered curved connectors, AWS/K8s icons and brand logos, Vietnamese text. Exports SVG, PNG, editable draw.io XML, FreeMind .mm (opens in Freeplane/XMind) and interactive collapsible HTML (markmap). Use for "vẽ mindmap", "mind map", brainstorm/topic maps, study notes, plan breakdowns, toolchain overviews.
+description: "Draw XMind/MindNode-style mind maps from a Markdown outline: balanced two-sided map, right-only or top-down tree, coloured branches, tapered curved connectors, AWS/K8s icons and brand logos, Vietnamese text. Exports SVG, PNG, editable draw.io XML, FreeMind .mm (opens in Freeplane/XMind) and interactive collapsible HTML (markmap). Use for 'vẽ mindmap', 'mind map', brainstorm/topic maps, study notes, plan breakdowns, toolchain overviews."
 ---
 
 # mindmap
